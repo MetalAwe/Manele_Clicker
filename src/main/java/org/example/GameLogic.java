@@ -8,8 +8,7 @@ public class GameLogic {
     public int factoryPrice = 25;
     public int factoriesOwned = 0;
     public double heat = 0.0;
-    public final double MAX_HEAT = 100.0;
-    public final double HEAT_THRESHOLD = 50.0; // Music starts above this
+    public final double MAX_HEAT = 100.0;// Music starts above this
 
     // This will be called by a timer to make heat drop over time
     public void decayHeat() {

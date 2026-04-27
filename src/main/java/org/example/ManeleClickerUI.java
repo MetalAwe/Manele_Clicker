@@ -15,7 +15,7 @@ public class ManeleClickerUI {
     JPanel statsPanel;
     Dimension btnSize = new Dimension(350, 60);
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         new ManeleClickerUI().createUI();
     }
 
